@@ -8,12 +8,12 @@
   </head>
   <body>
     <script>
-      let timer = 3;
+      let alder = 7.5;
+      document.addEventListener("DOMContentLoaded", start);
 
-      let co2UdledtIKgVedFlyrejse = timer * 109;
-      console.log(
-        `Ved 3 timers flyrejse har du udledt ${co2UdledtIKgVedFlyrejse} kg CO2`
-      );
+      function start() {
+        console.log(16 * Math.log(alder) + 31);
+      }
     </script>
   </body>
 </html>
